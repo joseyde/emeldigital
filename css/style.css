@@ -1,7 +1,9 @@
 html {
     height: 100%;
   }
-
+  html {
+    scroll-behavior: smooth;
+  }
 body{
     background: #000;
     font-family: 'Open Sans', sans-serif;
@@ -165,9 +167,7 @@ body{
 .scrollContainer{
     
 }
-.scrollContainer section{
-    scroll-snap-align: start;
-}
+
 .carousel-item{
     min-height: 250px;
     display: flex;
@@ -289,5 +289,18 @@ footer{
   .section {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+   
+}
+h1.zoomIn, h3.zoomIn{
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+.animated .zoomIn {
+    transform: scale(1);
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+    animation-fill-mode: both
 }
