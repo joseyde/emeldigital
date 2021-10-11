@@ -388,7 +388,7 @@ h1.zoomIn, h3.zoomIn{
         padding: 0!important;
     }
     .home{
-        background-size: 200px;
+        background-size: 200px!important;
     }
     .exp{
         display: block!important;
