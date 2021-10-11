@@ -178,7 +178,7 @@ body{
     padding: 0 250px;
 }
 .testimonials, .works{
-    min-height: 100vh;
+  
     padding-top: 70px;
 }
 .testimonials{
@@ -450,4 +450,33 @@ h1.zoomIn, h3.zoomIn{
     .preview{
         height: 150px;
     }
+  }
+
+  .lb-details{
+      display: none!important;
+  }
+  .lb-outerContainer{
+      width: 100%!important;
+      height: 100%!important;
+  }
+  .lightbox{
+  
+      top: 0!important;
+  }
+  .lightbox img{
+      width: 100%!important;
+      height: auto!important;
+  }
+  .preview img{
+      width: 100%;
+      height: auto;
+  }
+  .lb-closeContainer{
+      position: fixed;
+      top: 15px;
+      right: 15px;
+  }
+  .lightboxOverlay{
+    height: 100%!important;
+    position: fixed!important;
   }
