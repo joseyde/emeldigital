@@ -22,6 +22,7 @@ body{
 .about{
     background: #1e5baf;
     min-height: 100vh;
+    padding-bottom: 100px;
 }
 .homeContent {
     height: 70vh;  
@@ -132,7 +133,7 @@ body{
 .works{
     position: relative;
     z-index: 100;
-    margin-top: -100px;
+  padding-top: 0!important;
 }
 .bg-dark{
     background: #000!important;
@@ -185,6 +186,7 @@ body{
     color: #fff;
     display: flex;
     align-items: center;
+    padding: 100px 0;
 }
 .testimonials p{
     font-weight: 300;
@@ -204,6 +206,7 @@ body{
     display: flex;
     align-items: center;
     min-height: 90vh;
+    padding: 100px 0;
 }
 .contactUS h1{
     font-size: 80px;
@@ -334,7 +337,11 @@ h1.zoomIn, h3.zoomIn{
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
   }
-
+  @media screen and (max-width: 1024px) {
+    .preview{
+        width: 25%;
+    }
+  }
   @media screen and (max-width: 992px) {
     .pe-5{
         padding-right: 0!important;
@@ -361,7 +368,11 @@ h1.zoomIn, h3.zoomIn{
     .carousel-item.active .carousel-caption{
         display: block!important;
     }
+    .preview{
+        width: 50%;
+    }
   }
+
   @media screen and (max-width: 768px) {
     .d-flex.skills{
         display: block!important;
@@ -388,7 +399,7 @@ h1.zoomIn, h3.zoomIn{
         padding: 0!important;
     }
     .home{
-        background-size: 200px!important;
+        background-size: 360px!important;
     }
     .exp{
         display: block!important;
@@ -403,7 +414,7 @@ h1.zoomIn, h3.zoomIn{
     }
 
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 680px) {
     .contactUS{
         padding: 100px 0;
     }
@@ -412,9 +423,9 @@ h1.zoomIn, h3.zoomIn{
         background-image: none!important;
     }
     .experience {
-        top: 100px;
-        /* margin-right: 80px; */
-        margin-bottom: 80px;
+        top: 30px!important;
+        margin-right:0px!important;
+        margin-bottom: 0px;
         text-align: center;
         width: 100%;
     }
@@ -432,5 +443,11 @@ h1.zoomIn, h3.zoomIn{
         height: 500px;
         padding-top: 100px;
         height: auto!important;
+    }
+    .homeContent{
+        padding: 0 30px;
+    }
+    .preview{
+        height: 150px;
     }
   }
