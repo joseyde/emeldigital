@@ -79,6 +79,7 @@ body{
     font-weight: 700;
     font-size: 20px;
     color:#fff;
+    text-align: center;
 }
 .experience{
     position: relative;
@@ -304,3 +305,73 @@ h1.zoomIn, h3.zoomIn{
     animation-delay: 0.6s;
     animation-fill-mode: both
 }
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animated .animate__slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+  }
+
+  @media screen and (max-width: 992px) {
+    .pe-5{
+        padding-right: 0!important;
+    }
+    .shape{
+        bottom: -140px;
+    }
+    .homeContent {
+        text-align: center;
+        padding: 0 100px;
+    }
+    .homeContent h1{
+        font-size: 60px
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .d-flex.skills{
+        display: block!important;
+        margin-bottom: 80px;
+        margin-top: 80px!important;
+    }
+    .d-flex.skills div{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .experience{
+        top: 100px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+    }
+    .about{
+        padding-bottom: 150px;
+    }
+    .shape{
+        height: 600px;
+    }
+    .carousel-item{
+        padding: 0!important;
+    }
+  }
