@@ -123,21 +123,19 @@ body{
 }
 .preview{
     width: 20%;
-    height: 270px;
+
     overflow: hidden;
 }
 .preview img{
     width: 110%;
     transition: all 0.5s ease;
     filter: grayscale(100%);
-    transform: rotate(-2deg );
     position: relative;
-    margin-top: -20px;
+    
 }
 .preview img:hover{
     width: 100%;
     filter: grayscale(0%);
-    transform: rotate(0deg);
     margin-top: 0;
 }
 .portfolio{
