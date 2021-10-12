@@ -463,6 +463,7 @@ h1.zoomIn, h3.zoomIn{
   .lightbox{
   
       top: 0!important;
+      position: fixed!important;
   }
   .lightbox img{
       width: 100%!important;
