@@ -98,7 +98,7 @@ body{
 }
 .experience{
     position: relative;
-    top: -50px;
+    top: -100px;
     display: inline-block;
     text-align: center;
     font-size: 20px;
@@ -123,7 +123,7 @@ body{
 }
 .preview{
     width: 20%;
-    height: 300px;
+    height: 270px;
     overflow: hidden;
 }
 .preview img{
@@ -379,6 +379,10 @@ h1.zoomIn, h3.zoomIn{
   @media screen and (max-width: 1024px) {
     .preview{
         width: 25%;
+        height: auto;
+    }
+    .preview img{
+        transform: rotate(0deg )
     }
   }
   @media screen and (max-width: 992px) {
@@ -464,7 +468,16 @@ h1.zoomIn, h3.zoomIn{
     h1{
         font-size: 60px!important;
     }
-
+    .lb-outerContainer {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        border-radius: 4px;
+        background-color: #000!important;
+        padding: 60px 10px!important;
+    }
+   
   }
   @media screen and (max-width: 680px) {
     .contactUS{
@@ -503,10 +516,6 @@ h1.zoomIn, h3.zoomIn{
     }
     .homeContent{
         padding: 0 30px;
-    }
-    .preview{
-        height: 120px;
-      
     }
   }
 
@@ -556,3 +565,15 @@ h1.zoomIn, h3.zoomIn{
           display: none;
       }
   }
+
+
+
+  .lb-outerContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #000!important;
+    padding: 60px;
+}
