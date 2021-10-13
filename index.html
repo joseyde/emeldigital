@@ -20,9 +20,9 @@
   
 
   </head>
-  <body>
+  <body data-bs-spy="menuscoll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
       <div class="container">
-    <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark">
+    <nav id="menuscoll" class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#home">Emel<b>Digital</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -222,8 +222,12 @@
         </div>
         </div>
     </section>
-    <section class="works section" id="portfolio">
- 
+    <section class="works section pt-5" id="portfolio">
+        <div class="mb-5 text-center portoliohead mt-5">
+            <h1 class="d-flex zoomIn mt-5">Portfolio</h1>
+            <div class="slideInUp">Here are some work  samples</div>
+        </div>
+        
         <div class="portfolio d-flex">
             <div class="preview">
                 <a class="example-image-link" href="./images/001.jpg" data-lightbox="example-set"  alt=""/>
@@ -280,7 +284,7 @@
         <div class="container">
             <div class="mb-5 text-center">
                 <h1 class="zoomIn">Hear What My Customers Say.</h1>
-                <p class="d-block mb-5 text-center slideInUp">Here are some review comments receivedr</p>
+                <p class="d-block mb-5 text-center slideInUp">Here are some review comments received</p>
                 <i class="bi bi-chat-right-quote slideInUp"></i>
             </div>
            
@@ -332,7 +336,7 @@
                 <div class="col-12">
                     <div class="contactHead mb-5">
                         <h1 class="zoomIn">Contact Me</h1>
-                        <div class="slideInUp">Lets Talk. Always available on Whatsapp</div>
+                        <div class="slideInUp">Feel free to contact me</div>
                     </div>
                     
                 </div>
@@ -403,7 +407,18 @@ function addClass(element, className) {
        
     }
 }
-          
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: 'menuscoll'
+}) 
+// var header = document.getElementById("navbarSupportedContent");
+// var btns = header.getElementsByClassName("nav-link");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//   var current = document.getElementsByClassName("active");
+//   current[0].className = current[0].className.replace(" active", "");
+//   this.className += " active";
+//   });
+// }
       </script>
 
   </body>
