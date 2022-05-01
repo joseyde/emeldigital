@@ -5,13 +5,24 @@ html {
     scroll-behavior: smooth;
   }
 body{
-    background: #000;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#21282b+0,000000+100 */
+background: #21282b; /* Old browsers */
+background: -moz-linear-gradient(147deg,  #21282b 0%, #000000 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(147deg,  #21282b 0%,#000000 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(147deg,  #21282b 0%,#000000 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21282b', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
     font-family: 'Open Sans', sans-serif;
-    padding-top: 70px;
     position: relative;
       margin: 0;
       height: 100%;
       -webkit-font-smoothing: antialiased;
+}
+.btn-primary{
+    padding: 10px 50px;
+    border:solid 1px #e2bc09;
+    border-radius: 0;
+    background: none!important;
+    font-weight: bold;
 }
 .home{
     /* background: url(../images/josey.jpg) no-repeat right bottom;
@@ -19,13 +30,41 @@ body{
     position: relative;
     background-size: 580px;
     overflow: hidden;
+height: calc(100vh - 105px)!important;
+
+}
+.skillDetail{
+    background: #fbf012;
+}
+.skills{
+  
+    color: #000;
+}
+.designer{
+    position: absolute;
+    font-size: 0px;
+    color: #fff;
+    opacity: 0.03;
+    z-index: 0;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+   z-index: 100;
+    left: -40%;
+    right: inherit;
+    width: 100%;
+    text-align: center;
+    transform: rotate(-90deg);
+    top: 35%;
+    z-index: 9999;
+   
 }
 .josey{
     position: absolute;
     right: 0;
-    bottom:150px;
+    bottom:-10px;
     z-index: 0;
-    width: 33%;
+    width: 30%;
     top: auto;
     margin: auto;
 }
@@ -33,7 +72,7 @@ body{
     width: 100%;
 }
 .about{
-    background: #1e5baf;
+    background: #4F2DDB;
     padding-top:100px;
     padding-bottom: 100px;
 }
@@ -50,20 +89,27 @@ body{
     color: #fff;  
 }
 .homeContent h1 span{
-    color: #1c61c0;
+    color: #FCF112;
+    font-weight: bold;
 }
 .homeContent p{
     color: #969696;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     display: block;
+    letter-spacing: 4px;
 }
 .nav-item a{
     color: #fff;
     margin: 0 15px;
 }
+.carousel-indicators button{
+    background: #000!important;
+    height: 5px;
+    border: 0!important;
+}
 .nav-item a.active{
-    color: #1c61c0;
+    color: #FCF112!important;
 }
 .navbar-brand{
     color: #1b68d2!important;
@@ -82,18 +128,19 @@ body{
     align-items: center
 }
 .count{
-    font-size: 100px;
-    font-weight: 700;
+    font-size: 50px;
+    /* font-weight: 700; */
     color: #fff;
-    line-height: 110px;
+    line-height: 80px;
+   
 }
 .skills div{
-    border: solid 1px #fff;
+    border: solid 1px #000;
     padding: 10px 30px;
     margin-right: 20px;
     font-weight: 700;
     font-size: 20px;
-    color:#fff;
+    color:#000;
     text-align: center;
 }
 .experience{
@@ -101,9 +148,10 @@ body{
     top: -100px;
     display: inline-block;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
-    color:#fff;
+    color:#969696;
+    letter-spacing: 2px;
 }
 .abtContent{
     font-size: 15px;
@@ -147,7 +195,7 @@ body{
     z-index: 100;
 }
 .bg-dark{
-    background: #000!important;
+    background: none!important;
 }
 .eye{
     position: absolute;
@@ -161,7 +209,7 @@ body{
     display: block!important;
 }
 .shape{
-    background: #1e5baf;
+  
     -webkit-transform: skewY(9deg);
     -moz-transform: skewY(9deg);
     -ms-transform: skewY(9deg);
@@ -194,8 +242,8 @@ body{
     padding-top: 70px;
 }
 .testimonials{
-    background: #1e5baf;
-    color: #fff;
+    background: #FCF112;
+    color: #000;
     display: flex;
     align-items: center;
     padding: 100px 0;
@@ -203,7 +251,7 @@ body{
 }
 .testimonials p{
     font-weight: 300;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     margin-top:30px;
 }
@@ -225,6 +273,7 @@ body{
     align-items: center;
     min-height: 90vh;
     padding: 100px 0;
+    background: #000;
 }
 .contactUS h1{
     font-size: 80px;
@@ -232,8 +281,11 @@ body{
 }
 .socialmedia .bi{
     margin: 0 30px;
-    color: #fff;
+    color: #FCF112;
     font-size: 40px;
+}
+.rating .bi{
+    color: #FCF112;
 }
 .contactHead{
     text-align: center;
@@ -247,7 +299,7 @@ footer{
     padding: 8px 0;
     font-size: 12px;
     color: #ccc;
-    background: #1e5baf;
+    background: #4F2DDB;
 }
 .contactInfo, .contactHead {
     color: #979797;
@@ -265,6 +317,7 @@ footer{
     margin-bottom: 30px;
     line-height: 35px;
     font-weight: 300;
+    color: #000;
 }
 .carousel-item.active{
     display: flex!important;
@@ -417,7 +470,7 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
       font-size: 25px;
   }
 .contactInfo a{
-    color: #fff!important;
+    color: #FCF112!important;
     text-decoration: none;
 }
   @media screen and (max-width: 768px) {
