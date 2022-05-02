@@ -535,6 +535,9 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
    
   }
   @media screen and (max-width: 680px) {
+      .productDesign{
+          margin-bottom: 0!important;
+      }
     html {
        height: initial!important;
     }
