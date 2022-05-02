@@ -542,6 +542,7 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
         padding:  0;
         background-image: none!important;
         padding-top: 0;
+        min-height: calc(100vh + 105px)!important;
     }
 
     .experience {
