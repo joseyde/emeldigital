@@ -177,7 +177,7 @@ min-height: calc(100vh - 105px)!important;
 }
 .preview{
     width: 20%;
-    max-height:220px;
+    max-height:175px;
     overflow: hidden;
 }
 .preview img{
