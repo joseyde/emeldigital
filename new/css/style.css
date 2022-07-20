@@ -1,0 +1,642 @@
+html {
+    height: 100%;
+    background: #000;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+body{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#21282b+0,000000+100 */
+background: #000; /* Old browsers */
+
+font-family: 'Poppins', sans-serif;
+    position: relative;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+      padding-top: 50px;
+}
+.navbar-brand{
+    font-weight: bold!important;
+    color: #fff;
+    font-size: 27px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff!important;
+    font-weight: 300;
+}
+.btn-primary{
+    padding: 10px 50px;
+    border:solid 1px #e2bc09;
+    border-radius: 0;
+    background: none!important;
+    font-weight: bold;
+}
+
+.skillDetail{
+    background: #000;
+}
+.skillDetail .container{
+    background: #161414;
+    border-radius: 10px;
+    padding: 80px 60px;
+}
+.skills{
+  
+    color: #fff;
+}
+.exp{
+    font-size: 16px;
+    color: #fff;
+}
+.about{
+    background: #000;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.homeContent{
+    margin:60px 0;
+    color: #fff;
+}
+.homeContent h1{
+    font-weight: 300;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;  
+    color: #fff;  
+}
+.homeContent h1 span{
+    color: #FCF112;
+    font-weight: bold;
+}
+.homeContent p{
+    color: #969696;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    letter-spacing: 4px;
+}
+.nav-item a{
+    color: #fff;
+    margin: 0 15px;
+}
+.carousel-indicators button{
+    background: #000!important;
+    height: 5px;
+    border: 0!important;
+}
+.works img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.aboutContent{
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center
+}
+.count{
+    font-size: 50px;
+    /* font-weight: 700; */
+    color: #fff;
+    line-height: 80px;
+   
+}
+.expDetails{
+    font-size: 26px;
+    color: #fff;
+}
+.aboutinfo{
+    font-size: 24px;
+    font-weight: 300;
+}
+.skills div{
+    border: solid 1px #fff;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+}
+.experience{
+    position: relative;
+    top: 135px;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    color:#969696;
+    letter-spacing: 2px;
+    margin-right: auto;
+    margin-left: 0;
+}
+.abtContent{
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+
+}
+.abtContent .socialmedia .bi{
+    color: #000!important;
+}
+.abtContent h1{
+    font-weight: bold;
+    font-size: 67px;
+}
+.SkillInfo{
+    border-bottom: dotted 1px #302f2f;
+    padding: 10px 0;
+    justify-content: space-between;
+    color:#fff;
+}
+.preview{
+    width: 20%;
+    max-height:220px;
+    overflow: hidden;
+}
+.preview img{
+    width: 110%;
+    transition: all 0.5s ease;
+    filter: grayscale(100%);
+    position: relative;
+    
+}
+.preview img:hover{
+    width: 100%;
+    filter: grayscale(0%);
+    margin-top: 0;
+}
+.portfolio{
+    white-space: normal;
+    flex-wrap: wrap;
+}
+.works{
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+.bg-dark{
+    background: none!important;
+}
+.eye{
+    position: absolute;
+    bottom: 300px;
+    display: none;
+    right: 100px;
+    width: 132px;
+    height: 85px;
+}
+.eye.close{
+    display: block!important;
+}
+.shape{
+  
+    -webkit-transform: skewY(9deg);
+    -moz-transform: skewY(9deg);
+    -ms-transform: skewY(9deg);
+    -o-transform: skewY(9deg);
+    transform: skewY(9deg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -200px;
+    height: 500px;
+    z-index: 10;
+}
+.overview{
+    position: relative;
+    z-index: 100;
+}
+.process{
+    background: #161414;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item{
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 250px;
+}
+.testimonials, .works{
+  
+    padding-top: 70px;
+}
+.testimonials{
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.testimonials p{
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    margin-top:30px;
+}
+.testimonials .bi-chat-right-quote{
+    font-size: 100px;
+    
+}
+.home  h1{
+    font-size: 26px;
+}
+.home  h2{
+    font-size: 67px;
+    font-weight: bold;
+}
+.home  .btn a{
+    color: #fff!important;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+.testimonials h1{
+    font-weight: bold;
+    font-size: 67px;
+}
+.contactUS{
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    padding: 100px 0;
+    background: #000;
+}
+.contactUS h1{
+    font-size: 80px;
+    font-weight: 300;
+}
+.socialmedia .bi{
+    margin: 0 30px;
+   color: #fff;
+    font-size: 40px;
+}
+.rating .bi{
+    color: #fff;
+}
+.contactHead{
+    text-align: center;
+    color: #fff;
+}
+.contactInfo{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    padding: 8px 0;
+    font-size: 12px;
+    color: #ccc;
+    
+}
+.contactInfo, .contactHead {
+    color: #979797;
+}
+.contactUS h1, .contactUS h3{
+    color: #fff;
+}
+.carousel-caption{
+    position: relative!important;
+    left: 0;
+    right:0;
+}
+.carousel-caption h5{
+    font-style: italic;
+    margin-bottom: 30px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #fff;
+}
+.carousel-item.active{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 250px;
+}
+.exp{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted 1px #302f2f;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.company{
+    font-weight: bold;
+}
+.company span{
+    font-weight: 300;
+    display: inline-block;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1e5baf; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #206dda; 
+  }
+  .section {
+    width: 100%;
+
+   
+}
+h1.zoomIn, h3.zoomIn, .preview .zoomIn{
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+.animated .zoomIn {
+    transform: scale(1);
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+    animation-fill-mode: both
+}
+
+@-webkit-keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    }
+    }
+    @keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    }
+    } 
+  .animated .slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+    animation-fill-mode: both;
+  
+  }
+  .slideInUp{
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+
+  }
+  .bi-star, .bi-star-fill{
+      margin-left: 5px;
+  }
+  @media screen and (max-width: 1024px) {
+    .preview{
+        width: 25%;
+        height: auto;
+    }
+    .preview img{
+        transform: rotate(0deg )
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .pe-5{
+        padding-right: 0!important;
+    }
+    .shape{
+        bottom: -140px;
+    }
+    .homeContent {
+        text-align: center;
+        padding: 0 100px;
+    }
+    .homeContent h1{
+        font-size: 70px
+    }
+    .home{
+        background-size: 280px;
+    }
+ .testimonials  {
+        padding-bottom: 150px!important;
+    }
+    .carousel-item, .carousel-item.active{
+        padding: 0 80px!important;
+    }
+    .carousel-item.active .carousel-caption{
+        display: block!important;
+    }
+    .preview{
+        width: 50%;
+    }
+  }
+  .abtContent h4{
+      font-weight: bold;
+      font-size: 25px;
+  }
+.contactInfo a{
+   color: #fff;
+    text-decoration: none;
+}
+  @media screen and (max-width: 768px) {
+      .socialmedia {
+          justify-content: center!important;
+      }
+      .socialmedia .bi:last-child{
+          margin-right: 30px!important;
+      }
+    .d-flex.skills{
+        display: block!important;
+        margin-bottom: 0px;
+       
+    }
+    .d-flex.skills div{
+        margin: 0;
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .experience{
+        top: 100px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+    }
+
+    .shape{
+        height: 600px;
+    }
+    .carousel-item{
+        padding: 0!important;
+    }
+    .home{
+        background-size: 360px!important;
+    }
+    .exp{
+        display: block!important;
+    }
+    .company{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: 60px!important;
+    }
+    .lb-outerContainer {
+        position: relative;
+        width: 250px;
+
+
+        height: 250px;
+        margin: 0 auto;
+        border-radius: 4px;
+        background-color: #000!important;
+        padding: 60px 10px!important;
+    }
+   
+  }
+  @media screen and (max-width: 680px) {
+      .productDesign{
+          margin-bottom: 0!important;
+      }
+    html {
+       height: initial!important;
+    }
+    .contactUS{
+        padding: 100px 0;
+    }
+    .home {
+        padding:  0;
+        background-image: none!important;
+        padding-top: 0;
+       
+    }
+
+    .experience {
+        top: 30px!important;
+        margin-right:0px!important;
+        margin-bottom: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .shape {
+        background: #1e5baf;
+        -webkit-transform: skewY(
+    0deg);
+        -moz-transform: skewY(0deg);
+        -ms-transform: skewY(0deg);
+        -o-transform: skewY(0deg);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        height: 500px;
+        padding-top: 100px;
+        height: auto!important;
+        display: none;
+    }
+    .homeContent{
+        padding: 0 30px;
+    }
+  }
+
+  .lb-details{
+      display: none!important;
+  }
+  .lb-outerContainer{
+      width: 100%!important;
+      height: 100%!important;
+  }
+  .lightbox{
+  
+      top: 0!important;
+      position: fixed!important;
+      height: 100%;
+      overflow: auto;
+  }
+  .lightbox img{
+      width: 100%!important;
+      height: auto!important;
+  }
+  .preview img{
+      width: 100%;
+      height: auto;
+  }
+  .lb-closeContainer{
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+  }
+  .lightboxOverlay{
+    height: 100%!important;
+    position: fixed!important;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1400px) {
+  
+    .home {
+        background-size: 400px;
+        background-position-y: 450px;
+    }
+  }
+  @media screen and (max-width: 988px) {
+      .josey{
+          display: none;
+      }
+      .productDesign{
+        margin-bottom: 0!important;
+    }
+  }
+
+
+
+  .lb-outerContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #000!important;
+    padding: 60px;
+}
+.works h1{
+    font-size: 67px;
+    font-weight: bold;
+    color: #fff;
+    display: block!important;
+    text-align: center;
+}
+.portoliohead{
+    color: #fff;
+}
