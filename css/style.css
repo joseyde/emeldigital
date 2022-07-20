@@ -1,22 +1,29 @@
 html {
     height: 100%;
-    background: #21282b;
+    background: #000;
   }
   html {
     scroll-behavior: smooth;
   }
 body{
       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#21282b+0,000000+100 */
-background: #21282b; /* Old browsers */
-background: -moz-linear-gradient(147deg,  #21282b 0%, #000000 60%); /* FF3.6-15 */
-background: -webkit-linear-gradient(147deg,  #21282b 0%,#000000 60%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(147deg,  #21282b 0%,#000000 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21282b', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-    font-family: 'Open Sans', sans-serif;
+background: #000; /* Old browsers */
+
+font-family: 'Poppins', sans-serif;
     position: relative;
       margin: 0;
       height: 100%;
       -webkit-font-smoothing: antialiased;
+      padding-top: 50px;
+}
+.navbar-brand{
+    font-weight: bold!important;
+    color: #fff;
+    font-size: 27px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff!important;
+    font-weight: 300;
 }
 .btn-primary{
     padding: 10px 50px;
@@ -25,62 +32,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21282b', end
     background: none!important;
     font-weight: bold;
 }
-.home{
-    /* background: url(../images/josey.jpg) no-repeat right bottom;
-    background-attachment: fixed; */
-    position: relative;
-    background-size: 580px;
-    overflow: hidden;
-min-height: calc(100vh - 105px)!important;
 
-}
 .skillDetail{
-    background: #fbf012;
+    background: #000;
+    position: relative;
+}
+.skillDetail .container:after{
+    content: '';
+    width: 300px;
+    height: 300px;
+    filter: blur(200px);
+    background: #5659CB;
+
+    position:absolute;
+    top:-100px;
+    right: -100px;
+    z-index: 0;
+    opacity: 0.3;
+    display: none;
+}
+.skillDetail .container{
+    background: #161414;
+    border-radius: 10px;
+    padding: 80px 60px;
+    z-index: 1;
 }
 .skills{
   
-    color: #000;
-}
-.designer{
-    position: absolute;
-    font-size: 0px;
     color: #fff;
-    opacity: 0.03;
-    z-index: 0;
-    font-size: 90px;
-    text-transform: uppercase;
-    font-weight: bold;
-   z-index: 100;
-    left: -40%;
-    right: inherit;
-    width: 100%;
-    text-align: center;
-    transform: rotate(-90deg);
-    top: 35%;
-    z-index: 9999;
-   
 }
-.josey{
-    position: absolute;
-    right: 0;
-    bottom:-10px;
-    z-index: 0;
-    width: 30%;
-    top: auto;
-    margin: auto;
-}
-.josey img{
-    width: 100%;
+.exp{
+    font-size: 16px;
+    color: #fff;
 }
 .about{
-    background: #fff;
-    padding-top:100px;
-    padding-bottom: 100px;
+    background: #000;
+    padding-top:80px;
+    padding-bottom: 80px;
 }
-.homeContent {
-    height: 80vh;  
-    z-index: 20;
-    position: relative;
+.homeContent{
+    margin:60px 0;
+    color: #fff;
 }
 .homeContent h1{
     font-weight: 300;
@@ -109,21 +101,15 @@ min-height: calc(100vh - 105px)!important;
     height: 5px;
     border: 0!important;
 }
-.nav-item a.active, .subText{
-    color: #FCF112!important;
+.works img{
+    width: 100%;
+    border-radius: 10px;
 }
-.navbar-brand{
-    color: #1b68d2!important;
-    font-size: 30px;
-    font-weight: 300;
-}
-.navbar-brand b{
-    color: #fff!important;
-   
-}
+
+
 .aboutContent{
     position: relative;
-    color: #000;
+    color: #fff;
     font-size: 15px;
     display: flex;
     align-items: center
@@ -135,13 +121,20 @@ min-height: calc(100vh - 105px)!important;
     line-height: 80px;
    
 }
+.expDetails{
+    font-size: 26px;
+    color: #fff;
+}
+.aboutinfo{
+    font-size: 24px;
+    font-weight: 300;
+}
 .skills div{
-    border: solid 1px #000;
+    border: solid 1px #fff;
     padding: 10px 30px;
     margin-right: 20px;
-    font-weight: 700;
     font-size: 20px;
-    color:#000;
+    color:#fff;
     text-align: center;
 }
 .experience{
@@ -166,18 +159,18 @@ min-height: calc(100vh - 105px)!important;
     color: #000!important;
 }
 .abtContent h1{
-    font-weight: 300;
-    font-size: 80px;
+    font-weight: bold;
+    font-size: 67px;
 }
 .SkillInfo{
-    border-bottom: dotted 1px #fff;
+    border-bottom: dotted 1px #302f2f;
     padding: 10px 0;
     justify-content: space-between;
-    color:#000;
+    color:#fff;
 }
 .preview{
     width: 20%;
-    max-height:175px;
+    max-height:220px;
     overflow: hidden;
 }
 .preview img{
@@ -199,6 +192,7 @@ min-height: calc(100vh - 105px)!important;
 .works{
     position: relative;
     z-index: 100;
+    color: #fff;
 }
 .bg-dark{
     background: none!important;
@@ -232,8 +226,13 @@ min-height: calc(100vh - 105px)!important;
     position: relative;
     z-index: 100;
 }
-.scrollContainer{
-    
+.process{
+    background: #161414;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item{
@@ -248,8 +247,8 @@ min-height: calc(100vh - 105px)!important;
     padding-top: 70px;
 }
 .testimonials{
-    background: #FCF112;
-    color: #000;
+    background: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     padding: 100px 0;
@@ -257,7 +256,7 @@ min-height: calc(100vh - 105px)!important;
 }
 .testimonials p{
     font-weight: 300;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     margin-top:30px;
 }
@@ -265,14 +264,21 @@ min-height: calc(100vh - 105px)!important;
     font-size: 100px;
     
 }
+.home  h1{
+    font-size: 26px;
+}
+.home  h2{
+    font-size: 67px;
+    font-weight: bold;
+}
 .home  .btn a{
     color: #fff!important;
     text-decoration: none;
     padding: 15px 30px;
 }
 .testimonials h1{
-    font-weight: 300;
-    font-size: 80px;
+    font-weight: bold;
+    font-size: 67px;
 }
 .contactUS{
     display: flex;
@@ -283,15 +289,14 @@ min-height: calc(100vh - 105px)!important;
 }
 .contactUS h1{
     font-size: 80px;
-    font-weight: 300;
 }
 .socialmedia .bi{
     margin: 0 30px;
-    color: #FCF112;
+   color: #fff;
     font-size: 40px;
 }
 .rating .bi{
-    color: #8f8f8f;
+    color: #fff;
 }
 .contactHead{
     text-align: center;
@@ -305,7 +310,7 @@ footer{
     padding: 8px 0;
     font-size: 12px;
     color: #ccc;
-    background: #21282b;
+    
 }
 .contactInfo, .contactHead {
     color: #979797;
@@ -323,7 +328,7 @@ footer{
     margin-bottom: 30px;
     line-height: 35px;
     font-weight: 300;
-    color: #000;
+    color: #fff;
 }
 .carousel-item.active{
     display: flex!important;
@@ -335,7 +340,7 @@ footer{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    border-bottom: dotted 1px #fff;
+    border-bottom: dotted 1px #302f2f;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
@@ -369,7 +374,7 @@ footer{
   }
   .section {
     width: 100%;
-    height: 100%;
+
    
 }
 h1.zoomIn, h3.zoomIn, .preview .zoomIn{
@@ -476,7 +481,7 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
       font-size: 25px;
   }
 .contactInfo a{
-    color: #FCF112!important;
+   color: #fff;
     text-decoration: none;
 }
   @media screen and (max-width: 768px) {
@@ -526,6 +531,8 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
     .lb-outerContainer {
         position: relative;
         width: 250px;
+
+
         height: 250px;
         margin: 0 auto;
         border-radius: 4px;
@@ -639,8 +646,8 @@ h1.zoomIn, h3.zoomIn, .preview .zoomIn{
     padding: 60px;
 }
 .works h1{
-    font-size: 80px;
-    font-weight: 300;
+    font-size: 67px;
+    font-weight: bold;
     color: #fff;
     display: block!important;
     text-align: center;
